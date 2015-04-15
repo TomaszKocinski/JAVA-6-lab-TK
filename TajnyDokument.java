@@ -16,7 +16,7 @@ import java.io.Writer;
 
 /**
  *
- * @author pkacz_000
+ * @author kot
  */
 public class TajnyDokument implements Serializable {
     

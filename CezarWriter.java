@@ -10,7 +10,7 @@ import java.io.Writer;
 
 /**
  *
- * @author pkacz_000
+ * @author kot
  */
 public class CezarWriter extends FilterWriter {
     int offset;
@@ -32,7 +32,6 @@ public class CezarWriter extends FilterWriter {
                 charInArgStr-=26;
             }
             temp+=charInArgStr;
-            
         }
         this.write(temp, 0, temp.length());
     }

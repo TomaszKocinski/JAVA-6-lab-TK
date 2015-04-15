@@ -10,7 +10,7 @@ import java.io.Reader;
 
 /**
  *
- * @author pkacz_000
+ * @author kot
  */
 public class CezarReader extends FilterReader {
     int offset;
